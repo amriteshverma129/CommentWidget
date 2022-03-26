@@ -1,0 +1,54 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .row {
+  width: 70%;
+  padding: 10px;
+}
+
+.container .row input {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  padding-left: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.container .row .comment-box {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.container .row .comment-box div {
+  font-size: 17px;
+  border-radius: 25px;
+  background-color: #f5d7e5;
+  padding: 15px;
+}
+
+.container .row .comment-box span {
+  padding: 5px;
+  font-size: 13px;
+  color: blue;
+}
+
+.container .row .comment-box span:last-child {
+  color: red;
+}
+/*# sourceMappingURL=comment-widget.css.map */
